@@ -9,12 +9,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val activity = Activity()
-        activity.keyboard.toString()
-        activity.keyboardInject.toString()
-        activity.monitorInject.toString()
-        activity.monitor.toString()
-        activity.mouseInject.toString()
-        activity.mouse
+        Activity().computer.toString()
     }
 }
