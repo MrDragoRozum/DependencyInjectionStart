@@ -6,7 +6,6 @@ import com.example.dependencyinjectionstart.R
 import javax.inject.Inject
 import javax.inject.Singleton
 
-@Singleton
 class ExampleDatabase @Inject constructor(
     private val context: Context,
     private val currentTimeMillis: Long
